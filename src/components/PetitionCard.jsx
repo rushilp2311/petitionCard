@@ -125,7 +125,7 @@ const PetitionCard = () => {
       },
     });
     console.log(dropzone.getAcceptedFiles());
-  }, [media]);
+  }, []);
 
   /**
    * Function to submit the Petition form data.
